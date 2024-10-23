@@ -66,29 +66,8 @@ const objj = {
     [sym1]: 'value'
 };
 
-console.log(obj[sym1]);  // Output: value
-
-const personn = { name: 'John' };
-
-// Using Reflect to get a propertyasync function* asyncGenerator() {
-    yield 'First';
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    yield 'Second';
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    yield 'Third';
+ 
+ 
 
 
-(async () => {
-    for await (let value of asyncGenerator()) {
-        console.log(value);
-    }
-})();
-
-console.log(Reflect.get(personn, 'name'));  // Output: John
-
-// Using Reflect to set a property
-Reflect.set(personn, 'age', 25);
-console.log(personn.age);  // Output: 25
-
-// Checking if a property exists using Reflect
-console.log(Reflect.has(personn, 'name'));  // Output: true
+ 
